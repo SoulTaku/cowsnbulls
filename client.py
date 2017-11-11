@@ -3,7 +3,7 @@ import socket
 import threading
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-server = ('localhost', 420)
+server = ('lox.hopto.org', 420)
 
 sock.connect(server)
 
