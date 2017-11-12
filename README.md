@@ -1,2 +1,2 @@
 # cowsnbulls
-Multiplayer Cows and Bulls game!
+## Multiplayer Cows and Bulls game!
