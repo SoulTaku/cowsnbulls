@@ -1,6 +1,9 @@
 #!/usr/bin/python3
 import socket
 import threading
+import os
+
+os.system('git pull')
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server = ('lox.hopto.org', 420)
