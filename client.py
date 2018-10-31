@@ -18,9 +18,9 @@ sock.send(nick.encode())
 def check(nr):
     for i in range(3):
         for j in range(i+1, 4):
-            if choice[i] == choice[j]: return True
+            if choice[i] == choice[j]: return False
 
-    return False
+    return True
 
 while True:
     while True:
