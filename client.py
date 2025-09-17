@@ -3,7 +3,6 @@ import socket
 import threading
 import os
 
-#asd
 os.system('git pull')
 
 server_name = input('Server: ')
