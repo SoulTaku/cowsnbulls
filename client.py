@@ -5,8 +5,10 @@ import os
 
 os.system('git pull')
 
+server_name = input('Server: ')
+
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-server = ('lox.hopto.org', 420)
+server = (server_name, 42069)
 
 sock.connect(server)
 
